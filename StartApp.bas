@@ -6,6 +6,8 @@ Public tbPreView As New TextBoxHelper
 
 Public tbArticle As New TextBoxHelper
 
+Public tbVbCode  As New TextBoxHelper
+
 Public tbReg     As New BindRegExp
 
 Sub Main()

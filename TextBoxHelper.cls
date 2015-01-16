@@ -77,6 +77,10 @@ Public Function GetSelected()
     GetSelected = m_TextBox.SelText
 End Function
 
+Public Sub SetText(ByVal txtData As String)
+    m_TextBox.Text = txtData
+End Sub
+
 '【私有方法】
 '定位光标
 Private Sub LocPointer(ByVal offsetValue As Long)

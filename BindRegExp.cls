@@ -39,7 +39,7 @@ Public Sub Bind(ByRef chkIgnoreCase As CheckBox, _
 
 End Sub
 
-Private Sub mGlobal_MouseUp(Button As Integer, Shift As Integer, X As Single, Y As Single)
+Private Sub mGlobal_Click()
 
     If mGlobal.Value = 1 Then
         mRegExp.Global = True
@@ -49,10 +49,7 @@ Private Sub mGlobal_MouseUp(Button As Integer, Shift As Integer, X As Single, Y 
 
 End Sub
 
-Private Sub mIgnoreCase_MouseUp(Button As Integer, _
-                                Shift As Integer, _
-                                X As Single, _
-                                Y As Single)
+Private Sub mIgnoreCase_Click()
 
     If mIgnoreCase.Value = 1 Then
         mRegExp.IgnoreCase = True
@@ -62,10 +59,7 @@ Private Sub mIgnoreCase_MouseUp(Button As Integer, _
 
 End Sub
 
-Private Sub mMultiLine_MouseUp(Button As Integer, _
-                               Shift As Integer, _
-                               X As Single, _
-                               Y As Single)
+Private Sub mMultiLine_Click()
 
     If mMultiLine.Value = 1 Then
         mRegExp.MultiLine = True
@@ -82,4 +76,21 @@ Public Function Match(ByVal Patten As String, ByVal Sample As String) As MatchCo
         Set Match = .Execute(Sample)
     End With
 
+End Function
+
+Public Function ToVBCode() As String
+
+    Dim regCode As String
+
+    regCode = regCode & "Dim txtTextContent As String" & vbCrLf
+    regCode = regCode & "Dim tmpRegExp As New RegExp" & vbCrLf
+    regCode = regCode & "Dim tmpRegC As MatchCollection" & vbCrLf
+    regCode = regCode & "With tmpRegExp" & vbCrLf
+    regCode = regCode & "   .IgnoreCase = " & IIf(mRegExp.IgnoreCase, "True", "False") & vbCrLf
+    regCode = regCode & "   .Global = " & IIf(mRegExp.Global, "True", "False") & vbCrLf
+    regCode = regCode & "   .MultiLine = " & IIf(mRegExp.MultiLine, "True", "False") & vbCrLf
+    regCode = regCode & "   .Pattern = """ & mRegExp.Pattern & """" & vbCrLf
+    regCode = regCode & "   Set tmpRegC = .Execute(txtTextContent)" & vbCrLf
+    regCode = regCode & "End With"
+    ToVBCode = regCode
 End Function
