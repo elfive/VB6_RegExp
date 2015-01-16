@@ -1,0 +1,13 @@
+[历史]
+1=#P0#=mb	#P1#=lstFited_Click	#P2#=正则表达式测试器/frmTestor/lstFited_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20150116214010	#P7#=0	#P8#=3	.
+2=#P0#=mb	#P1#=ReMatch	#P2#=正则表达式测试器/frmTestor/ReMatch	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20150116214456	#P7#=0	#P8#=7	.
+3=#P0#=mb	#P1#=txtPatten_KeyUp	#P2#=正则表达式测试器/frmTestor/txtPatten_KeyUp	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20150116140216	#P7#=0	#P8#=2	.
+4=#P0#=mb	#P1#=Form_Unload	#P2#=正则表达式测试器/frmTestor/Form_Unload	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20150116140117	#P7#=0	#P8#=2	.
+5=#P0#=mb	#P1#=txtArticle_KeyUp	#P2#=正则表达式测试器/frmTestor/txtArticle_KeyUp	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20150116140116	#P7#=0	#P8#=0	.
+6=#P0#=mb	#P1#=Bind	#P2#=正则表达式测试器/BindRegExp/Bind	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20150116135358	#P7#=0	#P8#=3	.
+7=#P0#=mb	#P1#=Form_Load	#P2#=正则表达式测试器/frmTestor/Form_Load	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20150116135133	#P7#=0	#P8#=-1	.
+8=#P0#=mb	#P1#=Match	#P2#=正则表达式测试器/BindRegExp/Match	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20150116134736	#P7#=0	#P8#=0	.
+9=#P0#=mb	#P1#=mMultiLine_MouseUp	#P2#=正则表达式测试器/BindRegExp/mMultiLine_MouseUp	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20150116134425	#P7#=0	#P8#=3	.
+10=#P0#=mb	#P1#=mGlobal_MouseUp	#P2#=正则表达式测试器/BindRegExp/mGlobal_MouseUp	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20150116134204	#P7#=0	#P8#=4	.
+11=#P0#=mb	#P1#=mIgnoreCase_MouseUp	#P2#=正则表达式测试器/BindRegExp/mIgnoreCase_MouseUp	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20150116133620	#P7#=0	#P8#=2	.
+12=#P0#=mb	#P1#=main	#P2#=正则表达式测试器/StartApp/main	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20150116132529	#P7#=0	#P8#=0	.
