@@ -47,6 +47,8 @@ Begin VB.Form frmTestor
    Begin VB.TextBox txtArticle 
       Height          =   2415
       Left            =   120
+      MultiLine       =   -1  'True
+      ScrollBars      =   3  'Both
       TabIndex        =   3
       Top             =   2160
       Width           =   6255
@@ -84,6 +86,18 @@ Attribute VB_GlobalNameSpace = False
 Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
+
+Private Sub chkGlobal_Click()
+    Call ReMatch
+End Sub
+
+Private Sub chkIgnoreCase_Click()
+    Call ReMatch
+End Sub
+
+Private Sub chkMulitiline_Click()
+    Call ReMatch
+End Sub
 
 Private Sub Form_Load()
     Me.Show
